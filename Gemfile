@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 
-
+ruby '2.3.0p0'
 gem 'rails', '4.2.5'
 
 gem 'sass-rails', '~> 5.0'
@@ -27,11 +27,11 @@ group :development do
   
   gem 'spring'
 end
-group :development , :test: do
+group :development, :test do
 gem 'sqlite3'
 gem 'pry'
 end
-group: production do
+group :production do
 gem 'pg'
 gem 'rails_12factor'
 end
